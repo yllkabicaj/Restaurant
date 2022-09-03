@@ -1,0 +1,134 @@
+.mainStory{
+    background-image: url(../../../images/bg\ 1.png);
+    height: 1000px;
+    width: 100%;
+}
+.topStory{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 30px;
+}
+.img{
+    width: 50%;
+    padding: 80px 0px 80px 180px;
+}
+.imgStory{
+    width: 520px;
+height: 384px;
+
+}
+.storyText{
+    width: 50%;
+    padding: 80px 180px 80px 0px;
+}
+.h3Story{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 28px;
+color: #BF181C;
+padding-bottom: 30px;
+}
+.pStory{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 22px;
+color: #000000;
+padding-bottom: 30px;
+}
+.buttonStory{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 24px;
+color: #FFFFFF;
+background-color: #000000;
+padding: 10px;
+}
+.hrStory{
+    width: 75px;
+height: 0px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.bottomStory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 65px;
+}
+.uber{
+    width: 164px;
+height: 204px;
+}
+.halal{
+    width: 164px;
+    height: 204px;
+}
+@media screen and (max-width: 767px){
+    .topStory{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .img{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .imgStory{
+        width: 306.5px;
+        height: 197px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .storyText{
+        padding: 0;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .h3Story{
+        font-size: 24px;
+line-height: 29px;
+text-align: center;
+    }
+    .hrStory{
+        width: 75px;
+height: 0px;
+text-align: center;
+    }
+    .pStory{
+        font-size: 18px;
+line-height: 22px;
+text-align: center;
+    }
+    .buttonStory{
+        font-size: 20px;
+line-height: 24px;
+width: 269.5px;
+height: 45px;
+padding: 0;
+    }
+    .uber{
+        width: 136px;
+        height: 169.5px;
+    }
+    .halal{
+        width: 136px;
+        height: 169.5px;
+    }
+}

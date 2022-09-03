@@ -1,0 +1,66 @@
+.bgpackages{
+    background-image: url('../../../images/20200730-DSC08582-1800x900\ 1.png');
+    width: 100%;
+    height: 750px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.bgpackages h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 47px;
+text-align: center;
+color: #FFFFFF;
+padding: 0 500px;
+}
+.imgs>img{
+    width: 310px;
+height: 203.76px;
+margin: 0 60px;
+}
+.seepackages{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 48px;
+text-align: center;
+color: #000000;
+background-color: #FFFFFF;
+padding: 5px 40px;
+}
+@media screen and (max-width: 767px){
+.bgpackages{
+background-repeat: no-repeat;
+background-size: cover;
+height: 885.5px;
+gap: 30px;
+}
+.bgpackages h2{
+    font-size: 24px;
+line-height: 29px;
+padding: 0;
+padding-top: 10px;
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgs>img{
+    width: 297px;
+height: 195.5px;
+margin: 9px 0;
+}
+.seepackages{
+    width: 258.5px;
+height: 52px;
+padding: 0;
+}
+}

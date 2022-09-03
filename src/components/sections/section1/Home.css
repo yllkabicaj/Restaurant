@@ -1,0 +1,29 @@
+.background{
+    background: url(../../../images/3353888\ 1.png);
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 160px;
+}
+
+@media screen and (max-width: 767px){
+    .background{
+        height: 258px;
+    }
+    .background h1{
+        font-size: 20px;
+line-height: 24px;
+padding: 50px;
+    }
+}

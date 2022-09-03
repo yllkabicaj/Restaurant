@@ -1,0 +1,88 @@
+.foodmenu{
+    width: 100%;
+height: 603px;
+background: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.m30{
+    width: 40%;
+    background-image: url("../../../images/Jasmine-Rice-Square-1-removebg-preview\ 1.png");
+    height: 603px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.m70{
+    width: 60%;
+    height: 603px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+.h3menu{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 28px;
+color: #BF181C;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 10px;
+}
+.menuhr{
+    width: 75px;
+    height: 0px;
+        border: 1px solid #000000;
+        background-color: #000000;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+}
+.menup{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 25px;
+color: #000000;
+padding: 20px 80px;
+padding-top: 20px;
+}
+.menubtn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 5px 40px;
+    margin-top: 25px;
+}
+@media screen and (max-width: 767px){
+    .m30{
+        display: none;
+    }
+    .m70{
+        width: 100%;
+    }
+    .menup{
+        font-size: 18px;
+line-height: 22px;
+text-align: center;
+    }
+    .menubtn{
+        font-size: 20px;
+line-height: 24px;
+padding: 0;
+width: 258.5px;
+height: 52px;
+margin-top: 5px;
+    }
+
+}
